@@ -22,7 +22,7 @@ CHKDSK /R
 sfc /scannow
 ```
 
-#### Repara arquivos corrompidos ou ausentes do S.O(Requer CMD ou POWERSHELL em modo Admin, valido para versoes acima do windows 8):
+#### Repara arquivos corrompidos ou ausentes do S.O(Requer CMD ou POWERSHELL em modo Admin, comando valido apenas para versoes acima do windows 8):
 ```shell
 DISM /Online /Cleanup-image /Restorehealth
 
