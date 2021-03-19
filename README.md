@@ -22,9 +22,17 @@ CHKDSK /R
 sfc /scannow
 ```
 
-#### Repara arquivos corrompidos ou ausentes do S.O(Requer CMD ou POWERSHELL em modo Admin, comando valido apenas para versoes acima do windows 8):
+#### Reparar arquivos corrompidos ou ausentes do S.O(Requer CMD ou POWERSHELL em modo Admin, comando valido apenas para versoes acima do windows 8):
 ```shell
 DISM /Online /Cleanup-image /Restorehealth
+```
+#### Listar pastas de unidade ordenando e gera arquivo com a listagem:
 
+```shell
+dir /s /b /OG /AD lista.txt
+```
+#### Listar pastas e subpastas de unidade ordenando e gera arquivo com a listagem:
+```shell
+dir /s /b /o:g /ad /on > lista2.txt
 ```
 
