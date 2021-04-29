@@ -72,6 +72,10 @@ appwiz.cpl
 msinfo32
 ```
 
+#### Habilitar Arquivos com mesmo nome na mesma Pasta (Sensitive Case para arquivos)
+```shell
+fsutil.exe file setCaseSensitiveInfo c:\users\nome.usuario\Documents\teste enable
+```
 
 wiaacmgr:    			Abre o assistente de câmera ou scanner
 migwiz:      			Abre o assistente de transferência de definições e arquivos
