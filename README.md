@@ -102,7 +102,7 @@ get-WmiObject Win32_Volume
 get-WmiObject Win32_Volume | select Name, capacity, freespace
 ```
 
-
+## Demais comandos usados tanto com WIN + R, CMD ou PowerShell  
 - wiaacmgr:    			Abre o assistente de câmera ou scanner
 - migwiz:      			Abre o assistente de transferência de definições e arquivos
 - fsquirt:     			Abre o assistente de transferência de arquivo Bluetooth
